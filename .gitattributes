@@ -1,2 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+password = "aaaaa"
+import pandas
+import streamlit as st
+import pandas as pd
+st.title ("آشغالللللللل دلمممممممممم یه عالمه واست تنگ شده")
+st.write(pandas.DataFrame({
+    'استان': ["لرستان", "هرمزگان", "بوشهر", "خوزستان الف","خوزستان ب","ایلام"],
+    'فروش': [10, 20, 30, 40, 50,60],
+    'هدف':[20,20,20,20,20,20],
+    'تحقق':["10%" , "20%", "30%","40%","50%","60%"]
+}))
